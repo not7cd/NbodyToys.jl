@@ -1,4 +1,4 @@
-module NbodyToy
+module NbodyToys
 
 greet() = print("Hello World!")
 

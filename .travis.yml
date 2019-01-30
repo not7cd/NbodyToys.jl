@@ -24,7 +24,7 @@ notifications:
 #  - julia -e 'Pkg.clone(pwd()); Pkg.build("{{ cookiecutter.module_name }}"); Pkg.test("{{ cookiecutter.module_name }}"; coverage=true)';
 
 after_success:
-  - julia -e 'if VERSION >= v"0.7.0-" using Pkg end; cd(Pkg.dir("NbodyToy")); Pkg.add("Coverage"); using Coverage; Coveralls.submit(Coveralls.process_folder())';
+  - julia -e 'if VERSION >= v"0.7.0-" using Pkg end; cd(Pkg.dir("NbodyToys")); Pkg.add("Coverage"); using Coverage; Coveralls.submit(Coveralls.process_folder())';
 
 jobs:
   include:

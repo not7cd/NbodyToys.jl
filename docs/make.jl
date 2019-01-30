@@ -1,10 +1,10 @@
 using Documenter
-using NbodyToy
+using NbodyToys
 
 makedocs(
-    sitename = "NbodyToy",
+    sitename = "NbodyToys",
     format = :html,
-    modules = [NbodyToy]
+    modules = [NbodyToys]
 )
 
 # Documenter can also automatically deploy documentation to gh-pages.

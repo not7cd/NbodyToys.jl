@@ -1,3 +1,3 @@
-# NbodyToy.jl
+# NbodyToys.jl
 
-Documentation for NbodyToy.jl
+Documentation for NbodyToys.jl
