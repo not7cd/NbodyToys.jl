@@ -1,0 +1,6 @@
+authors = ["Norbert Szulc <norbert@not7cd.net>"]
+name = "NbodyToy"
+uuid = "43dacf64-24a8-11e9-2821-3992daa598e9"
+version = "0.1.0"
+
+[deps]
